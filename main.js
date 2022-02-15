@@ -13,6 +13,7 @@ window.addEventListener("DOMContentLoaded", function () {
         $('.materiais .imagens .small').children("img").eq(1).attr('src', imageUrl + "/small2.png");
         $('.materiais .imagens .big').children("img").attr('src', imageUrl + "/big.png");
         
+        $(this).addClass('active-material').siblings().removeClass('active-material');
         
         $('.materiais .imagens .small').children("img").eq(0).addClass('active-image');
         $('.materiais .imagens .small').children("img").eq(1).addClass('active-image');
