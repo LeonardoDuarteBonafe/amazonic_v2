@@ -30,6 +30,25 @@ window.addEventListener("DOMContentLoaded", function () {
         }); 
     })
     
+    $('.galeria .imagens img').click(function(){
+        var imagemPequenaId = $(this).attr('id');
+        var imagemGrandeId = $('.galeria .banner img').attr('id');
+        var imagemUrl = "Images/Galeria/imagem";
+        console.log("clicou" + imagemPequenaId);
+        
+        $('.galeria .banner img').attr('id', imagemPequenaId);
+        $('.galeria .banner img').attr('src', imagemUrl + imagemPequenaId + ".png");
+        
+        $(this).attr('id', imagemGrandeId);
+        $(this).attr('src',  imagemUrl + imagemGrandeId + ".png");
+        /*var imageGrandeId = $('.empresa .imagens .grande img').attr('id');
+        $('.empresa .imagens .grande img').attr('id', $(this).attr('id'));
+        $('.empresa .imagens .grande img').attr('src', 'Images/Index/Empresa/imagem' + $(this).attr('id') + ".webp");
+
+        $(this).attr('id', imageGrandeId);
+        $(this).attr('src', 'Images/Index/Empresa/imagem' + imageGrandeId + ".webp");*/
+    });
+    
     var language = {
         eng: {
             navbar: {
