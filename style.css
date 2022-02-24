@@ -49,25 +49,30 @@ p{
     color: var(--primary-color);
 }
 
+/*
 .whatsapp-fixed {
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-    width: 40px;
-    height: 40px;
-    z-index: 100;
-    cursor: pointer;
+position: fixed;
+right: 50px;
+bottom: 50px;
+width: 40px;
+height: 40px;
+z-index: 100;
+cursor: pointer;
 }
 
 .whatsapp-fixed img{
-    width: 100%;
-    transition: 0.5s;
+width: 100%;
+transition: 0.5s;
 }
 
 .whatsapp-fixed:hover img{
-    transform: scale(1.35);
+transform: scale(1.35);
 }
+*/
 
+.sumir{
+    display: none;
+}
 
 header{
     /position: fixed;
@@ -251,19 +256,6 @@ header nav .fundo{
 #top-carousel-info .carousel-inner{
     position: relative;
 }
-
-/*#top-carousel-info .text{
-position: absolute;
-text-transform: uppercase;
-margin: 0;
-height: calc(100% - 55px);
-right: 10px;
-bottom: 0;
-width: 45%;
-display: flex;
-align-items: center;
-text-align: justify;
-}*/
 
 #top-carousel .carousel-inner .carousel-item{
     width: 100%;
@@ -775,513 +767,39 @@ footer{
     background-color: #062D1D;
 }
 
-/*site antigo*/
-
-.page-index .destaques .row .box{
-    margin: 10px 15px !important;
-}
-
-.destaques{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.destaques .row{
-    width: 90%;
-    margin: 0 auto !important;
-}
-
-.destaques .row .box{
-    width: 100%;
-    max-width: 300px;
-    height: 350px;
-    overflow: hidden;
-    padding: 0 20px;
-}
-
-.destaques .row .box .image{
-    height: 300px;
-    overflow: hidden;
-    object-fit: cover;
-    cursor: pointer;
-}
-
-.destaques .row .box .image img{
-    width: 100%;
-    height: 100%;
-    transition: 1s;
-}
-
-.destaques .row .box .image:hover img{
-    transform: scale(1.2);
-}
-
-.destaques .row .box p{
-    height: 50px;
-    margin: 0;
-    font-size: 1.35rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*materiais*/
-.materiais .gallery-swiper {
-    width: 100%;
-    max-width: 1366px !important;
-    height: 520px;
-    overflow: hidden;
-}
-
-.materiais .gallery-swiper .swiper-slide 
-{
-    background-position: center;
-    background-size: cover;
-    width: 250px !important;
-    height: 400px !important;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent), to(rgba(255,255,255,0.2)));
-    position: relative;
-    display: flex !important;
-    justify-content: center;
-    cursor: pointer;
-    margin: 0 40px;
-    margin-top: 50px;
-    color: transparent !important;
-    overflow: hidden;
-}
-
-.materiais .gallery-swiper .swiper-slide img 
-{
-    display: block;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    height: 100%;
-    transition: 1s;
-}
-
-.materiais .gallery-swiper .swiper-slide p{
-    opacity: 0;
-    transform: translateY(0px);
-    transition: 1s;
-    position: absolute;
-    text-align: center;
-    color: white;
-    bottom: 0;
-    font-size: 2rem;
-}
-
-.materiais .gallery-swiper .swiper-slide:hover p{
-    opacity: 1;
-    transform: translateY(-20px);
-}
-
-.materiais .gallery-swiper .swiper-slide:hover img{
-    box-shadow: 20px 30px 50px #999;
-    filter: brightness(75%);
-    transform: scale(1.1);
-}
-
-#jazida-carousel{
-    height: 550px;
-    position: relative;
-}
-
-#jazida-carousel .carousel-indicators{
-    bottom: 175px;
-    right: 0;
-    left: inherit;
-}
-
-#jazida-carousel .carousel-inner{
-    flex-direction: row-reverse;
-    height: 100%;
-}
-
-#jazida-carousel .carousel-inner .carousel-item{
-    height: 100%;
-}
-
-#jazida-carousel .carousel-inner .carousel-item .box{
-    display: flex;
-    height: 100%;
-    z-index: 5;
-}
-
-#jazida-carousel .carousel-inner .carousel-item .box div:first-child{
-    clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
-    flex: 1 100%;
-    height: 100%;
-}
-
-#jazida-carousel .carousel-inner .carousel-item .box div img{
-    margin: 0 !important;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    object-position: center;
-
-}
-
-#jazida-carousel .carousel-inner .carousel-item .box div:last-child{
-    position: relative;
-    right: 50px;
-    flex: 1 55%;
-    display: flex;
-    flex-direction: column;
-}
-
-#jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
-    font-family: cherolina;
-    width: 100%;
-    height: 40%;
-    color: var(--primary-color);
-    text-align: right;
-    font-size: 5rem;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-#jazida-carousel .carousel-inner .carousel-item .box div:last-child p{
-    text-align: right;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    margin-bottom: 0;
-}
-
-#jazida-carousel .text{
-    position: absolute;
-    right: 85px;
-    bottom: 0;
-    width: 35%;
-    text-align: justify;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    margin-bottom: 0;
-    height: 60%;
-}
-
-#jazida-carousel .static-image{
-    position: absolute;
-    top: 0;
-    left: 0;
-    clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
-    width: 60%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-#jazida-carousel .static-image img{
-    width: 100%;
-    height: 100%;
-}
-
-#jazida-carousel .carousel-inner .carousel-item .box div:first-child img{
-    opacity: 0;
-    transition: 1s;
-    transform: translateX(-50px);
-}
-
-#jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
-    opacity: 0;
-    transition: 0.5s;
-    transform: translateX(50px);
-}
-
-#jazida-carousel .carousel-inner .carousel-item.active .box div:first-child img{
-    opacity: 1;
-    transform: translateX(0);
-    transition-delay: 0.5s;
-}
-
-#jazida-carousel .carousel-inner .carousel-item.active .box div:last-child h3{
-    opacity: 1;
-    transform: translateX(0);
-    transition-delay: 0.5s;
-}
-
-#jazida-carousel .carousel-inner .carousel-item.active .box div:last-child p{
-    opacity: 1;
-    transform: translateX(0);
-    transition-delay: 0.9s;
-}
-
-.contato{
-    padding: 0 !important;
-    margin: 0 !important;
-    padding-bottom: 70px !important;
-    width: 100%;
-}
-
-.contato .form div{
-    padding: 7px 5px !important;
-}
-
-.contato .form div input{
-    height: 50px;
-}
-
-.contato .form div input,
-.contato .form div textarea
-{
-    color: var(--primary-color);
-    font-size: 1.5rem;
-    padding-left: 20px;
-    width: 100%;
-    border-color: dimgray;
-    border-width: 1.5px;
-
-}
-
-.contato .form div input::placeholder,
-.contato .form div textarea::placeholder{
-    color: var(--primary-color);
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 10px 0 !Important;
-}
-
-.contato .form div textarea{
-    resize: none;
-}
-
-.contato .form .btn-form{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 50px;
-    padding:    5px !important;;
-}
-
-.contato .form .btn-form button{
-    width: 100px;
-    height: 100%;
-    font-size: 1.3rem;
-    color: var(--primary-color);
-    font-weight: bold;
-    border-color: dimgray;
-    border-width: 1.5px;
-    transition: 0.5s;
-}
-
-.contato .form .btn-form button:hover{
-    background-color: var(--primary-color);
-    color: white;
-    transition: 0.5s;
-}
-
-.form-required::-webkit-input-placeholder{
-    color: red !important;
-    opacity: 0.8;
-}
-
-.maps{
-    width: 100%;
-    height: 400px;
-}
-
-.maps iframe{
-    width: 100%;
-    height: 100%;
-}
-
-/*
-footer{
-background-color: var(--primary-color);
-color: white;
-display: flex !important;
-justify-content: center;
-padding: 50px 0;
-}
-
-footer div{
-width: 40%;
-}
-
-footer .logo{
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-footer .logo img{
-width: 300px;
-}
-
-footer .info{
-text-align: center;
-}
-
-footer .info .social{
-width: 100%;
-margin: 10px 0;
-}
-
-footer .info .social a{
-margin: 0 5px;
-}
-
-footer .info p{ 
-color: white !important;
-}*/
-
-.page-empresa .empresa{
-    padding-top: var(--offset-navbar);
-}
-
-.page-empresa .empresa .info{
-    display: flex;
-}
-
-.page-empresa .empresa .info .text{
-    width: 30%;
-    margin: 0 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.page-empresa .empresa .info .text h2{
-    font-family: cherolina;
-    font-size: 9rem;
-    color: var(--primary-color);
-}
-
-.page-empresa .empresa .info .text p{
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    text-align: justify !important;
-}
-
-.page-empresa .empresa .info .images{
-    width: 55%;
-    margin-right: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.page-empresa .empresa .info .images .grande{
-    padding: 0 !important;
-    margin: 0 !Important;
-    margin-bottom: 20px !important;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-
-.page-empresa .empresa .info .images .grande div{
-    width: 100% !important;
-    height: 500px;
-}
-
-.page-empresa .empresa .info .images .grande div img{
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover;
-}
-
-.page-empresa .empresa .info .images .pequena{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.page-empresa .empresa .info .images .pequena div{
-    width: 18%;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.page-empresa .empresa .info .images .pequena div img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.page-empresa .empresa .info .images .grande .page-empresa-active img{
-    animation: openImage 0.5s forwards;
-}
-
-@keyframes openImage {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.page-materiais .offset-navbar{
-
-    padding-top: var(--offset-navbar);
-}
-
-.page-materiais .material{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.page-materiais .material .box{
-    width: 250px;
-    height: 150px;
-    margin: 15px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-}
-
-.page-materiais .material .box img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    transition: 0.5s;
-}
-
-.page-materiais .material .box p{
-    margin: 0;
-    padding: 5px 10px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    background-color: white;
-    transition: 0.5s;
-}
-
-.page-materiais .material .box:hover img{
-    filter: brightness(50%);
-}
-
-.page-materiais .material .box:hover p{
-    background-color: var(--primary-color);
-    background-color: transparent;
-    color: white;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    font-size: 1.5rem;
-}
-
 @media only screen and (min-width: 576px) and (max-width: 800px)
 {
 
 }
 
 @media (max-width: 991px){
+
+    header nav .mobile-menu{
+        display: none;
+        cursor: pointer;
+    }
+
+    header nav .mobile-menu div{
+        width: 32px;
+        height: 2px;
+        background: var(--primary-color);
+        margin: 8px;
+        transition: 0.3s;
+        z-index: 10;
+        background-color: white !important;
+    }
+
+    header nav .fundo{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 3;
+        height: 80px;
+        width: 140px;
+        z-index: 1;
+    }
+
     .title{
         height: 100px;
     }
@@ -1292,12 +810,14 @@ color: white !important;
     }
 
     header nav{
-        padding: 0 25px 0 35px;
-        height: 100px;
+        padding: 0 10px 0 15px;
+        height: 70px;
     }
 
     header nav .logo{
         width: 150px !important;
+        display: flex;
+        align-items: center;
     }
 
     header nav .logo img{
@@ -1306,7 +826,7 @@ color: white !important;
 
     header nav .nav-list{
         position: absolute;
-        top: var(--offset-navbar-mobile);
+        top: 80px;
         right: 0;
         width: 300px;
         height: 250px;
@@ -1318,7 +838,7 @@ color: white !important;
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        border: 1px solid var(--primary-color);
+        /border: 1px solid var(--primary-color);
     }
 
     header nav .nav-list li{
@@ -1327,8 +847,14 @@ color: white !important;
         border: none;
     }
 
+    header nav .nav-list li a{
+        color: var(--primary-color) !important;
+    }
+
     header nav .mobile-menu{
         display: block;
+        background-color: var(--primary-color);
+        border-radius: 15%;
     }
 
     header nav .mobile-menu.active .line1{
@@ -1357,77 +883,10 @@ color: white !important;
             transform: translateX(0px);
         }
     }
-
-    .page-empresa .empresa{
-        padding-top: var(--navbar-offset-mobile);
-    }
-
-    .page-empresa .empresa .info{
-        flex-direction: column;
-    }
-
-    .page-empresa .empresa .info .text{
-        width: 90%;
-        margin: 20px auto;
-        text-align: center;
-    }
-
-    .page-empresa .empresa .info .images{
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .page-materiais .offset-navbar{
-        padding-top: var(--offset-navbar-mobile);
-    }
 }
 
 @media only screen and (max-width: 575px){
 
-    .materiais .gallery-swiper .swiper-slide p{
-        font-size: 1.3rem !important;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
-        font-size: 4rem !important;   
-    }
-
-    #jazida-carousel .text{
-        width: 80% !important;
-        margin: 0 14% 0 6% !important;
-        font-size: 1.05rem;
-    }
-
-    .page-empresa .empresa .info .text h2{
-        font-size: 7rem;
-    }
-
-    .page-empresa .empresa .info .text p{
-        font-size: 1.0rem;
-    }
-
-    .page-empresa .empresa .info .images{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .page-empresa .empresa .info .images .grande div{
-        height: 300px;
-        padding: 0 1.5%;
-    }
-
-    .page-empresa .empresa .info .images .pequena{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .page-empresa .empresa .info .images .pequena div{
-        width: 30%;
-        height: auto;
-        max-height: 100px;
-        margin: 5px 1.5%;
-    }
 }
 
 @media only screen and (max-width: 767px)
@@ -1437,502 +896,300 @@ color: white !important;
     }
 
     .carousel-indicators li{
-        width: 20px !important;
-        height: 20px !important;
-        margin: 7px !important;
+        width: 30px !important;
+        height: 30px !important;
+        margin: 5px !important;
+        margin-right: 30px !important;
     }
 
     #top-carousel{
-        padding-top: var(--offset-navbar-mobile);
+        /padding-top: var(--offset-navbar-mobile);
     }
 
     .carousel-indicators{
         width: 30px;
-    }
-
-    #top-carousel .carousel-indicators{
-        bottom: 15% !important;
-    }
-
-    #top-carousel .carousel-inner .carousel-item{
-        width: calc(100% - 30px);
-        height: 250px;
-    }
-
-    #top-carousel .carousel-inner .carousel-item img{
-        width: 100%;
         height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    #top-carousel-info .carousel-inner .carousel-item{
-        height: auto;
-        overflow: hidden;
-    }
-
-    #top-carousel-info .carousel-indicators{
-        bottom: 30px;
-        right: 0;
-        left: inherit;
-    }
-
-    #top-carousel-info .carousel-inner {
-        margin-top: -20px;
-    }
-
-    #top-carousel-info .text{
-        position: inherit;
-        width: 90%;
-        margin: 0 5% !important;
-        text-align: center;
+        margin-right: 10px !important;
+        right: 10 !important;
     }
 
     .carousel-inner .carousel-item{
-        width: calc(100% - 30px);
+        width: 100% !important;
+        height: 300px !important;
     }
 
-    #top-carousel-info .carousel-inner .carousel-item .box{
-        flex-wrap: wrap;
-        padding: 0 5px;
-        justify-content: center;
+    /*.our-quarry{
+    position: relative;
+    width: 100%;
+}*/
+
+    .our-quarry img{
+        /width: 100%;
+        height: 400px;
+        /object-fit: cover !important;
+        object-position: left;
     }
 
-    #top-carousel-info .carousel-inner .carousel-item .box div{
-        height: 100px;
-        margin: 0 0%;
-        padding: 0 15px;
-        max-width: 150px;
+    /*.our-quarry .bloco{
+    display: none !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60% !important;
+    height: 100% !important;
+    /background-color: aqua;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    opacity: 0 !important;
+}*/
+
+    /*.our-quarry .bloco img{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}*/
+
+    .our-quarry .info{
+        width: 100%;
+        padding: 0 !important;
+        background-color: rgba(255,255,255,0.6);
+        /opacity: 0.5;
     }
 
-    #top-carousel-info .carousel-inner .carousel-item .box p{
-        padding-left: 5%;
-        font-size: 1rem;
-        line-height: normal;
-        margin-top: 10px !important;
-        margin-bottom: 10px !important;
-        height: 100%;
-        align-items: flex-start;
+    .our-quarry .info h1{
+        font-size: 2em;
         text-align: center;
+        /background-color: blue;
+        width: 100%;
+        margin-bottom: 15px;
     }
 
-    .title{
-        padding: 15px 0;
+    .our-quarry .info p{
+        text-align: center;
+        padding: 0 15px;
+        font-size: 1em;
     }
 
-    /*materiais*/
-    .materiais .gallery-swiper {
-        height: 300px;
+    .our-quarry .folha{
+        display: none;
     }
 
-    .materiais .gallery-swiper .swiper-slide 
-    {
-        width: 150px !important;
-        height: 250px !important;
-        margin: 0 15px;
+    .our-quarry .top-right-text{
+        height: 100px;
+        width: 100px;
+    }
+
+    .our-quarry .bottom-center-text{
+        font-size: 3em;
+        transform: translate(-50%, 0%) !important;
+    }
+
+
+    .product{
+        height: 300px !important;
+        /margin-bottom: 200px;
+        /margin: 30px 0;
+    }
+
+    /*.product .fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
+
+    .product .center-left-text{/*
+        position: absolute;
+        z-index: 5;
+        left: 0;
+        top: 50%;
+        transform: translate(-38%, -50%) rotate(90deg);*/
+        /margin: 0;
+        font-size: 2em;
+        /background-color: brown;
+        /height: 70px;
+        /*color: transparent;
+        background-image: url(Images/Product/nome.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;*/
+    }
+
+    .product .small-image{
+        /z-index: 2;
+        /background-color: purple;
+        display: flex;
+        /flex-wrap: wrap;
+        align-items: center;
+        /justify-content: center;
+        position: absolute;
+        /*left: 40px !important;
+        height: 150px;*/
+        height: 80%;
+        width: 240px !important;
+        left: 50% !important;
+        top: 50% !important;
+        transform: translate(-50%, -50%);
+        /*position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;*/
+    }
+
+    .product .small-image img{
+        margin: 1% !important;
+        width: 48%;
+        height: 48%;
+    }
+
+    .product .banner{
+        z-index: 1;
+        background-color: greenyellow;
+        height: 100% !important;
+        width: auto !important;
+        display: flex;
+        /transform: rotate(-180deg);
+        /cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: calc(100% - 40px) !important;
+        height: 100%;
+    }
+
+    .galeria{
+        height: 350px;
+    }
+
+    .galeria .banner{
+        margin-right: 10px;
+    }
+
+    .galeria .imagens{
+        width: 100px;
+    }
+
+    .galeria .imagens img{
+        margin-bottom: 10px;
+    }
+
+    /*.materiais{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }*/
+
+    /*.materiais .fundo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }*/
+
+    /*.materiais .topbar,
+    .materiais .imagens{
+    }
+
+    .materiais .topbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+*/
+    .materiais{
+        height: auto !important;
+        /background-color: aqua;
+    }
+    
+    .materiais .topbar .titulo{
+        /background-color: aqua;
         margin-top: 20px;
     }
 
-    .materiais .gallery-swiper .swiper-slide p{
-        opacity: 0;
-        transform: translateY(0px);
-        transition: 0.5s;
-        position: absolute;
-        text-align: center;
-        color: white;
-        bottom: 0;
-        font-size: 2rem;
-    }
-
-    .materiais .gallery-swiper .swiper-slide-active.gallery-banner img{
-        filter: brightness(75%);
-    }
-
-    .materiais .gallery-swiper .swiper-slide-active.gallery-banner p{
-        opacity: 1;
-        transform: translateY(-20px);
-    }
-
-    .materiais .gallery-swiper .swiper-slide:hover img{
-        box-shadow: none;
-    }
-
-    #jazida-carousel{
-        height: 350px;
-        background-color: transparent;
-    }
-
-    #jazida-carousel .carousel-indicators{
-        background-color: transparent;
-        bottom: 100px;
-        right: 0;
-        left: inherit;
-    }
-
-    #jazida-carousel .carousel-inner{
-        flex-direction: row-reverse;
-        height: 100%;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item{
-        height: 100%;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box{
-        display: block;
-        height: 100%;
-        background-color: transparent;
-        z-index: 5;
-        position: relative;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:first-child{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-        width: 100%;
-        background-color: transparent;
-        position: absolute;
-        overflow: hidden;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:first-child img{
-        width: 100% !important;
-        height: 100% !important;
-        object-fit: cover !important;
-    }
-
-    #jazida-carousel .static-image{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-        width: 100%;
-    }
-
-    #jazida-carousel .static-image img{
-        filter: opacity(0.35);
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:last-child{
-        right: 0px;
-        background-color: transparent;
-        color: white;
-        height: 100%;
-        padding: 0 5%;
-        transition: 1s;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
-        font-size: 4.5rem;
-        text-align: center;
-        margin: 0 !important;
-        justify-content: center;
-    }
-
-    #jazida-carousel .text{
-        right: 0px;
-        width: 86%;
-        margin: 0 9% 0 5%;
-        text-align: center;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:last-child p{
-        font-size: 0.95rem;
-        text-align: center;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item.active .box div:first-child img{
-        filter: opacity(0.35);
-    }
-
-    .contato{
-        padding-bottom: 40px !important;
-    }
-
-
-    .contato .form div input,
-    .contato .form div textarea
+    /*.materiais .topbar .titulo h1,
+    .materiais .topbar .titulo h2
     {
-        font-size: 1.3rem;
-
+        margin: 0;
+        display: flex;
+        align-items: flex-end;
+    }
+*/
+    .materiais .topbar .titulo h1{
+        font-size: 2em;
     }
 
-    .contato .form div input::placeholder,
-    .contato .form div textarea::placeholder{
-        font-size: 1.2rem;
+    .materiais .topbar .titulo h2{
+        font-size: 1.5em;
     }
 
-    footer{
-        display: flex !important;
-        flex-direction: column;
+    .materiais .topbar .menu{
         justify-content: center;
-        padding: 40px 10px 30px 10px;
+        flex-wrap: wrap;
+        font-size: 1.2em;
+        margin: 10px 0;
     }
 
-    footer div{
+    .materiais .topbar .menu p{
+        text-align: center;
+        padding: 5px 10px;
+    }
+
+    .materiais .topbar .menu p{
+        margin: 0 10px;
+    }
+
+    .materiais .imagens{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+    }
+    
+    .materiais .imagens img{
         width: 100%;
     }
 
-    footer .logo{
-        width: 70%;
-        margin: 20px auto !important;
+    .materiais .imagens .small{
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0;
+    }
+    
+    .materiais .imagens .small img{
+    width: 100px;
+        margin: 5px 10px;
+    }
+    
+
+    .materiais .folha{
+        display: none;
+    }
+    
+    footer{
+        display: flex;
+        align-items: center;
+    }
+    
+    footer img{
+        width: 100px !important;
     }
 
-    footer .logo img{
-        width: 100% !important;
-        max-width: 250px;
-    }
 
-    footer .info{
-        text-align: center;
-    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px)
 {
 
-    #top-carousel .carousel-indicators{
-        bottom: 22% !important;
-    }
-
-    #top-carousel .carousel-inner .carousel-item{
-        height: 350px;
-    }
-
-    #top-carousel-info .carousel-inner {
-        margin-top: -35px;
-    }
-
-    #top-carousel-info .carousel-inner .carousel-item .box{
-        flex-wrap: wrap;
-        padding: 0 10px;
-    }
-
-    #top-carousel-info .carousel-inner .carousel-item .box div{
-        height: 130px;
-        margin: 0 0%;
-        padding: 0 15px;
-        max-width: 180px;
-    }
-
-    #top-carousel-info .carousel-inner .carousel-item .box p{
-        font-size: 1.2rem;
-        margin-top: 15px !important;
-    }
-
-    .title{
-        padding: 20px 0;
-    }
-
-    /*materiais*/
-    .materiais .gallery-swiper {
-        height: 380px;
-    }
-
-    .materiais .gallery-swiper .swiper-slide 
-    {
-        width: 180px !important;
-        height: 300px !important;
-    }
-
-    .materiais .gallery-swiper .swiper-slide p{
-        font-size: 1.6rem !important;
-    }
-
-    #jazida-carousel{
-        height: 400px;
-        background-color: transparent;
-    }
-
-    #jazida-carousel .carousel-indicators{
-        background-color: transparent;
-        bottom: 125px;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
-        font-size: 5rem;
-        margin-bottom: 10px;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:last-child p{
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item.active .box div:first-child img{
-        filter: opacity(0.4);
-    }
-
-    .contato{
-        padding-bottom: 40px !important;
-    }
-
-
-    .contato .form div input,
-    .contato .form div textarea
-    {
-        font-size: 1.3rem;
-
-    }
-
-    .contato .form div input::placeholder,
-    .contato .form div textarea::placeholder{
-        font-size: 1.2rem;
-    }
-
-
-    footer{
-        display: flex !important;
-        flex-direction: column;
-        justify-content: center;
-        padding: 40px 10px 30px 10px;
-    }
-
-    footer div{
-        width: 100%;
-    }
-
-    footer .logo{
-        width: 70%;
-        margin: 20px auto !important;
-    }
-
-    footer .logo img{
-        width: 100% !important;
-        max-width: 250px;
-    }
-
-    footer .info{
-        text-align: center;
-    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
-    .title{
-        font-size: 3rem;
-    }
 
-    .carousel-indicators li{
-        width: 25px !important;
-        height: 25px !important;
-    }
-
-    .carousel-indicators{
-        width: 35px;;
-    }
-
-    #top-carousel{
-        padding-top: var(--offset-navbar-mobile);
-    }
-
-    #top-carousel .carousel-indicators{
-        bottom: 20% !important;
-    }
-
-    #top-carousel .carousel-inner .carousel-item{
-        width: calc(100% - 35px);
-        height: 400px;
-    }
-
-    #top-carousel-info .carousel-inner {
-        margin-top: -30px;
-    }
-
-    #top-carousel-info .text{
-        height: calc(100% - 35px);
-        width: 47%;
-    }
-
-    #top-carousel-info .carousel-inner .carousel-item{
-        height: 200px;
-    }
-
-    #top-carousel-info .carousel-indicators{
-        bottom: 20px;
-        margin-top: -0px !Important;
-    }
-
-    .carousel-inner .carousel-item{
-        width: calc(100% - 35px);
-    }
-
-    #top-carousel-info .carousel-inner .carousel-item .box{
-        padding: 0 10px 0 40px;
-    }
-
-    #top-carousel-info .carousel-inner .carousel-item .box div{
-        margin: 0 10px;
-    }
-
-    #top-carousel-info .carousel-inner .carousel-item .box p{
-        padding-left: 13px;
-        font-size: 0.9rem;
-        height: calc(100% - 35px);
-        line-height: normal;
-    }
-
-
-    /*materiais*/
-    .materiais .gallery-swiper {
-        height: 450px;
-    }
-
-    .materiais .gallery-swiper .swiper-slide 
-    {
-        width: 200px !important;
-        height: 300px !important;
-        margin: 0 25px;
-        margin-top: 50px;
-    }
-
-    .materiais .gallery-swiper .swiper-slide p{
-        opacity: 0;
-        transform: translateY(0px);
-        transition: 1s;
-        position: absolute;
-        color: white;
-        bottom: 0;
-        font-size: 1.8rem;
-    }
-
-    .materiais .gallery-swiper .swiper-slide:hover p{
-        opacity: 1;
-        transform: translateY(-20px);
-    }
-
-    .materiais .gallery-swiper .swiper-slide:hover img{
-        box-shadow: 20px 30px 50px #999;
-    }
-
-    #jazida-carousel{
-        height: 400px;
-        background-color: transparent;
-    }
-
-    #jazida-carousel .carousel-indicators{
-        bottom: 110px;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box{
-        background-color: transparent;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:last-child{
-        right: 30px;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
-        font-size: 4rem;
-    }
-
-    #jazida-carousel .carousel-inner .carousel-item .box div:last-child p{
-        font-size: 1.1rem;
-    }
-
-    #jazida-carousel .text{
-        right: 65px;
-        width: 37%;
-        font-size: 1.2rem;
-    }
-
-
-    footer .logo img{
-        width: 250px;
-    }
 }
